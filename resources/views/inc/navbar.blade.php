@@ -6,6 +6,7 @@
         <div class="navbar-nav mx-auto">
             <a class="nav-link text-center" href="/">About</a>
             <a class="nav-link text-center" href="/work">Work</a>
+            <a class="nav-link text-center" href="/contact">Contact</a>
         </div>
     </div>
 </nav>

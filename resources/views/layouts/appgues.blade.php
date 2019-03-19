@@ -13,10 +13,15 @@
 
 
     <!-- Fonts -->
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- Styles -->
+
+
+
+    <!-- Styles-->
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}" type="text/css" >
+
 
 </head>
 <body>
@@ -26,9 +31,8 @@
     <div class="container appbeck">
         @include('inc.messages')
         @yield('content')
-        @include('inc.footer')
     </div>
-
+    @include('inc.footer')
     <script src="{{ mix('/js/app.js') }}"></script>
 
 </div>
