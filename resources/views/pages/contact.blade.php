@@ -13,19 +13,19 @@
             {!! Form::open(['action' => 'PagesController@contactSend', 'method'=>'POST', 'enctype'=>'multipart/form-data']) !!}
             <div class="form-group ">
                 {{Form::label('email', 'Email Adress' , ['class'=>'addfont'])}}
-                {{Form::text('email','', ['class'=>'form-control','placeholder'=>'email'])}}
+                {{Form::text('email','', ['class'=>'form-control','placeholder'=>'Email'])}}
             </div>
             <div class="form-group ">
                 {{Form::label('subject', 'Subject', ['class'=>'addfont'])}}
-                {{Form::text('subject','', ['class'=>'form-control','placeholder'=>'subject'])}}
+                {{Form::text('subject','', ['class'=>'form-control','placeholder'=>'Subject'])}}
             </div>
             <div class="form-group ">
                 {{Form::label('message', 'Message', ['class'=>'addfont'])}}
-                {{Form::textarea('message','', ['class'=>'form-control','placeholder'=>'message'])}}
+                {{Form::textarea('message','', ['class'=>'form-control','placeholder'=>'Message'])}}
             </div>
 
             {{Form::hidden('_method','POST')}}
-            {{Form::submit('Submit',['class'=>'btn, btn-primary'])}}
+            {{Form::submit('Submit',['class'=>'btn, btn-success'])}}
             {!! Form::close() !!}
         </div>
 

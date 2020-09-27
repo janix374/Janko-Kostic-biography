@@ -25,6 +25,8 @@
 
 </head>
 <body>
+
+
 <div id="app">
 
     @include('inc.navbar')
@@ -33,8 +35,14 @@
         @yield('content')
     </div>
     @include('inc.footer')
-    <script src="{{ mix('/js/app.js') }}"></script>
+
+
+
 
 </div>
+
+<script src="{{ mix('/js/app.js') }}"></script>
+<script src="{{ asset('/js/jk.js') }}" type="text/javascript"></script>
+
 </body>
 </html>

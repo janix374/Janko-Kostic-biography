@@ -13,34 +13,30 @@
   font-family: BoringLesson;
 }
 
-@font-face {
-  src: url('/fonts/Raleway-Regular.ttf');
-  font-family: Raleway-Regular;
-}
-
-@font-face {
-  src: url('/fonts/Under Type.ttf');
-  font-family: OpenSans;
-}
 
 
 
 
 
 //navigation bar
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
 .border-shadow{
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 }
+#navback{
+  background-color:#41b3a3 !important;
+  font-weight: bold;
+}
+#navback a:hover{
+  text-decoration: underline;
+}
 
 
+//container
 .container{
   padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 
@@ -75,10 +71,15 @@
 
 //biography
 .jkshadow{
-  border: 1px solid rgba(0,0,0,0.75);
   -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.hidden-item{
+  visibility: visible;
+}
+.jkdivforpics{
+
 }
 .hobypics{
   margin: 15px;
@@ -87,9 +88,13 @@
 .hobypics:hover{
   opacity: 1;
 }
-.bio{
-  color: #4e555b;
+.colorh{
+  color: black;
 }
+.red{
+  color:#e27960;
+}
+
 h5{
   color: rgba(214,47,33,0.68);
 }
@@ -140,7 +145,8 @@ h5{
 
 //footer
 .foote{
-  background-color: #dee2e6;
+  background-color: #7fc7bb;
+  font-size: x-small;
 }
 .footc{
  opacity: 0.4;
@@ -161,35 +167,18 @@ h5{
 
 //back
 #app{
-  background-image: url("/images/wwall.jpg");
-  background-repeat: repeat;
+font-family: Verdana;
+  background-color: #7fc7bb;
+
 }
 
 .appbeck{
-  font-family: Raleway-Regular;
+
 }
 
 .addfont{
-  font-family: BoringLesson;
-}
-
-.red{
-  color: #e9605c;
-}
-
-.yellowbackgound {
-  background-image: url("/images/yellow2.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-weight: bold;
-}
-
-.bluebackgound {
-  font-family: OpenSans;
-  background-color: rgba(229,231,230,0.25);
-  font-size: large;
 
 }
+
+
 

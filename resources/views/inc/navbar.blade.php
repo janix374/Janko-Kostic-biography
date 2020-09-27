@@ -1,11 +1,12 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-shadow">
+<nav id="navback" class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-shadow ">
     <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav mx-auto">
             <a class="nav-link text-center" href="/">About</a>
-            <a class="nav-link text-center" href="/work">Work</a>
+            <a class="nav-link text-center" href="/portfolio">Portfolio</a>
+            <a class="nav-link text-center" href="/work">Career</a>
             <a class="nav-link text-center" href="/contact">Contact</a>
         </div>
     </div>

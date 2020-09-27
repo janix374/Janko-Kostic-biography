@@ -24,6 +24,7 @@ Route::get('/','PagesController@index');
 Route::get('/work','PagesController@work');
 Route::get('/contact','PagesController@contact');
 Route::post('/contact','PagesController@contactSend');//send email
+Route::get('/portfolio','PagesController@portfolio');
 
 
 //Route::get('/home', 'HomeController@index')->name('home');

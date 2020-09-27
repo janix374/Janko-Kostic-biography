@@ -12,7 +12,8 @@ class PagesController extends Controller
     public function index(){
 
         //shuffle hobbies
-        $sorted_array = array('h_basketball' => 'basketball','h_book'=>'book','h_football'=>'football','h_plane'=>'travel','h_popcorn'=>'movies','h_search'=>'internet searching','h_swimming'=>'swimming','h_waterpolo'=>'waterpolo','h_webdesign'=>'webdesign');
+      $sorted_array = array('h_basketball' => 'basketball' , 'h_book'=>'book','h_football'=>'football','h_plane'=>'travel','h_popcorn'=>'movies','h_search'=>'internet searching','h_swimming'=>'swimming','h_waterpolo'=>'waterpolo','h_webdesign'=>'webdesign');
+
         $hobbies = array();
         $keys = array_keys($sorted_array);
         shuffle($keys);
@@ -27,8 +28,14 @@ class PagesController extends Controller
 
 
     public function work(){
-        $jobs = DB::table('jobs')->orderBy('id', 'desc')->get();
-        return view('pages.work')->with('jobs',$jobs);
+        try {
+            $jobs = DB::table('jobs')->orderBy('id', 'desc')->get();
+            return view('pages.work')->with('jobs',$jobs);
+        }catch (\Exception $e){
+            return view('pages.something_went_wrong');
+        }
+
+
     }
 
 
@@ -64,6 +71,14 @@ class PagesController extends Controller
         return redirect()->back()->with('flush_message', 'Thank you for contact me!');
         //dd($request->all());
     }
+
+
+
+    public function portfolio(){
+        return view('pages.portfolio');
+    }
+
+
 
 
 
