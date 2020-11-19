@@ -10667,7 +10667,7 @@ a.text-dark:focus {
 #navback {
   /*background-color: #41b3a3 !important;*/
   font-weight: bold;
-    background-color: #f6e8e5 !important;;
+    background-color: #ffffff !important;;
 }
 
 #navback a:hover {
@@ -10710,7 +10710,7 @@ a.text-dark:focus {
 
 
 #picturejk{
-  width: 30%;
+  width: 50%;
 }
 .jkshadow {
   box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.75);
@@ -10736,8 +10736,6 @@ a.text-dark:focus {
     display: inline;
 
 }
-
-
 
 
 .red {
@@ -10801,7 +10799,7 @@ h5 {
 .foote {
   /*background-color: #7fc7bb;*/
   font-size: x-small;
-   background-color: #f6e8e5;
+   background-color: #ffffff;
 }
 
 .footc {
@@ -10824,14 +10822,11 @@ h5 {
 
 #app {
   font-family: Verdana;
-  background-color: #f6e8e5;
+  background-color: #ffffff;
   /*
   background-color: #7fc7bb;
    */
 }
-
-
-
 
 .portfolio-mt{
   margin: 25px 10px;
@@ -10842,7 +10837,6 @@ h5 {
   justify-content: center;
   align-items: center;
   height: 100%;
-
 }
 
 .portfoliolinks a{
@@ -10850,8 +10844,26 @@ h5 {
   color: #7b7472;
   padding: 5px 20px;
   background-color: #ddd4d1;
-
 }
+
+.section-background{
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(222,209,253,1) 0%, rgba(9,121,114,1) 0%, rgba(255,255,255,1) 0%, rgba(222,209,253,1) 100%);
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.jkdivforpics{
+  color: white;
+  font-size: 10px;
+}
+
+.jkdivforpics:hover{
+  color: red;
+  font-size: 10px;
+}
+
 
 
 

@@ -25,7 +25,7 @@
             </div>
 
             {{Form::hidden('_method','POST')}}
-            {{Form::submit('Submit',['class'=>'btn, btn-success'])}}
+            {{Form::submit('Submit',['class'=>'btn, btn-primary'])}}
             {!! Form::close() !!}
         </div>
 
