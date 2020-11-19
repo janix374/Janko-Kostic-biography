@@ -32,6 +32,7 @@
         <div class="col-sm-12">
             <h4 class="font-italic addfont ">Skills </h4>
             <div class="row">
+
                 <div class="col-sm-12">
 
                     <!--table for skils-->
@@ -108,8 +109,8 @@
                             <td> </td>
                         </tr>
                         <tr>
-                            <td scope="row">Autocad</td>
-                            <td> </td>
+                            <td scope="row">Other</td>
+                            <td>Git, webpack, npm, yarn, node.js</td>
                         </tr>
 
                         </tbody>
@@ -138,7 +139,7 @@
 
             @foreach($hobbies as $hobby => $value )
                     <div class="col-1 hobypics hvr-float-shadow"><img src="{{asset("storage/images/$hobby.png")}}" alt="hobby" title="{{$value}}">
-                        <p>{{$value}}</p>
+                        <p class="small-letters">{{$value}}</p>
                     </div>
             @endforeach
             </div>

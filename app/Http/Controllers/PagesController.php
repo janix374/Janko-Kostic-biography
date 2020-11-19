@@ -74,9 +74,9 @@ class PagesController extends Controller
 
 
 
-    public function portfolio(){
-        return view('pages.portfolio');
-    }
+//    public function portfolio(){
+//        return view('pages.portfolio');
+//    }
 
 
 
